@@ -1,0 +1,40 @@
+
+body{
+    background-image: linear-gradient(to bottom left, rgb(128, 207, 37), rgba(248, 232, 9,0));
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'open Sans', 'sans-serf';
+}
+.w3-bar-block .w3-bar-item 
+{
+    padding:20px
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+.topnav input[type=text] {
+    
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
